@@ -31,4 +31,4 @@ if (time < 11) {
     greetings = "Good evening";
 }
 var Message = document.getElementById("greeting");
-Message.textContent = greetings +" "+ name +  " thank you for your order!";
+Message.textContent = greetings +", "+ name +  " ,thank you for your order!";
