@@ -128,3 +128,9 @@ select, option {
 .button.guess {
   background-color: #6cc0ac;
 }
+.button.reset {
+  background-color: #0066ff;
+}
+.button.show {
+  background-color: #cc9900;
+}
