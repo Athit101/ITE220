@@ -1,0 +1,53 @@
+h1{
+ 	color: #000000;
+	font-size: 60px;
+
+}
+a {
+ 	color: #000000;
+	font-size: 50px;
+	border-style: solid;
+}
+body {
+  background-image: url("../images/Weather.jpg");
+  background-size: cover;
+  background-position: center; 
+  background-color:#d9d9d9;
+  background-repeat: no-repeat;
+}
+
+button{
+	color:#66d8ff;
+	background-color: #66d8ff;
+}
+
+#container {
+	color: #000000;
+	font-size: 50px;
+}
+#blank {
+	height: 50px;
+	font-size: 50px;
+}
+.change {
+	background-color:#66d8ff;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: times;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.change:hover {
+	background-color:#006566;
+}
+.change:active {
+	position:relative;
+	top:1px;
+}

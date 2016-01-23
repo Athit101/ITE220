@@ -8,8 +8,12 @@ checkAvailability: function()
 
 
 
-var elName= document.getElementById('hotelName');
-elName.textContent = hotel.name;
+//var elName= document.getElementById('hotelName');
+//elName.textContent = hotel.name;
+
+$(':hotelName').write("Testing");
+
+//$('div#hotelname').text('esting');
 
 var elRooms= document.getElementById('rooms');
 elRooms.textContent = hotel.checkAvailability();
