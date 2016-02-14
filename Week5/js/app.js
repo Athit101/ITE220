@@ -42,6 +42,18 @@ $(function(){
 				trigger:'hover'
 			});
 
+$("#contact").on("click",function(){
+  //$('.sweet-alert').length, 0);
+
+swal({title:"Error!",
+  text:"Sorry Customer Support currently no available. Try again later!",
+  type:"error",
+  confirmButtonText:"Sorry"});
+  
+  //ok($('.sweet-alert').is(':visible'));
+
+
+});
 
 
 
